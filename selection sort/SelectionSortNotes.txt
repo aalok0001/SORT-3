@@ -1,0 +1,10 @@
+Selection Sort is the one of the sorting techniques we use to sort an array in increasing or decreasing order respectively.
+Initially we select an element and compare it with other elements present at various indices.
+Initialize minimum value to index 0.
+Then, Traverse the array to find the minimum element other than the selected one in the array.
+While traversing if any element smaller than selected element is found then swap both the values.
+Then, increment selected index to point to next element.
+Repeat until array is sorted. 
+
+TIME COMPLEXITY : O(N^2)
+STABILITY : Unstable
